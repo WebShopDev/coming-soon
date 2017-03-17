@@ -46,4 +46,8 @@ body {
 	z-index: -9999;
 	margin-top: -9em;
 }
+.grid{
+	text-align: center;
+	margin-top: 1em;
+}
 
