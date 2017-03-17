@@ -94,4 +94,133 @@ body {
 .footer p a:hover{
 	color: #fff;
 }
+/*-----start-responsive-design------*/
+@media only screen and (max-width: 1366px) and (min-width: 1280px){
+	.wrap{
+		width:95%;
+	}
+	
 
+}
+@media only screen and (max-width: 1280px) and (min-width: 1024px) {
+	.wrap{
+		width:95%;
+	}
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+	.wrap{
+		width:95%;
+	}
+		.grid p {
+		margin-top: 1em;
+	}
+	.grid h3 {
+		padding-top: 1.2em;
+		padding-bottom: 2em;
+	}
+	.footer p.a {
+		margin-top: 4em;
+	}
+	.content-grid p img{
+		margin-top: -8em;
+	}
+}
+@media only screen and (max-width: 768px) and (min-width: 480px) {
+	.wrap{
+		width:95%;
+	}
+	.content-grid p {
+		margin-top: 3em;
+	}
+	.grid p{
+		margin-top: 0em;
+	}
+	.grid p img {
+		width: 80%;
+		margin-top: 1em;
+	}
+	.grid h3 {
+		font-size: 1em;
+		padding-top: 1.5em;
+		padding-bottom: 3em;
+	}
+	.footer p.a {
+		margin-top: 4em;
+		margin-bottom: 0em;
+	}
+	.footer p {
+		margin-bottom: 1em;
+	}
+}
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+	.wrap{
+		width:95%;
+	}
+	.content-grid p img{
+		margin-top: -2.2em;
+		width: 300px;
+		text-align: center;
+	}
+	.content-grid {
+		text-align: center;
+		margin: 0px auto;
+	}
+	.grid {
+		margin-top: 0em;
+	}
+	.grid p{
+		margin-top: 0em;
+	}
+	.grid p img {
+		width: 283px;
+		margin-top: 0.3em;
+	}
+	.grid h3 {
+		font-size: 0.9em;
+		padding-top: 1.2em;
+		padding-bottom: 1.7em;
+	}
+	.footer p.a {
+		margin-top: 2.7em;
+		margin-bottom: 0em;
+	}
+	.footer p.a a img {
+		margin-bottom: 0em;
+		width:100px;
+	}
+	.footer p {
+		margin-bottom: 1em;
+		margin-top: 0.8em;
+        font-size:0.9em;
+	}
+}
+@media only screen and (max-width: 320px) and (min-width: 240px) {
+	.grid p img {
+		width: 100%;
+		margin-top: 0em;
+	}
+	
+	.content-grid p {
+		margin-top:1em;
+	}
+	
+	.grid p{
+		margin-top: 0em;
+	}
+	
+	.grid h3 {
+		font-size: 1em;
+		padding-top: 1em;
+		padding-bottom: 1.4em;
+	}
+	.footer p.a {
+		margin-top: 2.5em;
+		margin-bottom: 0em;
+	}
+	.footer p {
+		margin-bottom: 1em;
+	}
+	.wrap{
+		width:95%;
+	}
+}
